@@ -1,29 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-public class ButtonFunctions : MonoBehaviour
-{
-
-    public void StartGame()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    public void RestartGame()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(1);
-    }
-
-    public void BackToMainMenu()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
-    }
-
-    public void ExitGame()
-    {
-        Application.Quit();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6db3127ab56290b508587dc5dc30faf88ca279bb6838df67f6b459ad0cbe4858
+size 596

@@ -1,21 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PlayerCamera : MonoBehaviour
-{
-
-    public Transform target;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        transform.LookAt(target);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d55db667edcc373a380908c8e8498b51b6838bc4ff4652f8e02cee25a62ec9e3
+size 1242
